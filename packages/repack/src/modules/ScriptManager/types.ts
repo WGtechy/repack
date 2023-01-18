@@ -88,6 +88,8 @@ export interface ScriptLocator {
    * Setting this flat to `false`, disables that behavior.
    */
   cache?: boolean;
+
+  token?: string;
 }
 
 /**
