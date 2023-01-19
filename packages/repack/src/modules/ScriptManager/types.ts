@@ -90,6 +90,8 @@ export interface ScriptLocator {
   cache?: boolean;
 
   token?: string;
+
+  publicKey?: string;
 }
 
 /**
@@ -149,4 +151,8 @@ export interface NormalizedScriptLocator {
 
   /** Request body. */
   body?: string;
+
+  token?: string;
+
+  publicKey?: string;
 }
