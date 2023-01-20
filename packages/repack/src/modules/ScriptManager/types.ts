@@ -91,7 +91,7 @@ export interface ScriptLocator {
 
   token?: string;
 
-  publicKey?: string;
+  verifyScriptSignature?: boolean;
 }
 
 /**
@@ -154,5 +154,5 @@ export interface NormalizedScriptLocator {
 
   token?: string;
 
-  publicKey?: string;
+  verifyScriptSignature?: boolean;
 }
